@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css">
+    <meta name="description" content="Christmas countdown timer using HTML, CSS & JS">
+    <title>2024 Christmas Countdown</title>
+</head>
+<style>
+    body {
+        background-image: url(images/pexels-nietjuh-744969.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+</style>
+<body>
+    <div class="container">
+       <h1>2024 Christmas Countdown</h1>
+        <div class="countdown">
+            <div class="container-day">
+                <h3>Day</h3>
+                <p id="day" class="day">0</p>
+            </div>
+            <div class="container-hour">
+                <h3>Hours</h3>
+                <p id="hour" class="hour">0</p>
+            </div>
+            <div class="container-minute">
+                <h3>Minutes</h3>
+                <p id="minute" class="minute">0</p>
+            </div>
+            <div class="container-second">
+                <h3>Seconds</h3>
+                <p id="second" class="second">0</p>
+            </div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+</html>
